@@ -1,32 +1,29 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+    background: url('img/sorcered-tree.jp') no-repeat;
+    background-size: cover;
+    font-family: Arial;
+    
 }
 
-.nav {
-    background: #fbfbfb;
-    color: #000000;
+ul {    
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
     list-style: none;
-    text-align: right;
-    padding: 0;
 }
 
-ul > li {
-    display: inline-block;
-    padding: 0 25px 0 25px;
-    font-size: 22px;        
+ul li {
+    float: left;
+    width: 300px;
+    height: 40px;
+    background-color: black; 
+    opacity: .8;
 }
 
-.nav > li > a {
+ul li a {
     text-decoration: none;
-    color: #000000;
+}    
+
+ul li a:hover {
+    color: orange;
 }
-
-.nav > li > a:hover {
-    color: #c1c1c1;
-}
-
-
-
-
