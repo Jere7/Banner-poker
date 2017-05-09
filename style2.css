@@ -2,12 +2,11 @@ body {
     background: url('img/terrario-ocean.jpg') no-repeat;
     background-size: cover;
     font-family: Arial;   
-    color: whitesmoke;
+    color: white;    
 }
 
-
 ul {     
-    margin: 0px;
+    margin: 0px; 
     padding: 0px;
     list-style: none;
 }
@@ -25,11 +24,19 @@ ul li {
 
 ul li a {
     text-decoration: none;
-    color: lavender;
+    color: white;
     display: block;
 }    
 
 ul li a:hover {
     color: green;
     background-color: skyblue;
+}
+
+ul li ul li {
+    display: none;
+}
+
+ul li:hover ul li {
+    display: block;
 }
