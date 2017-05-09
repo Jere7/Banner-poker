@@ -5,7 +5,7 @@ body {
 }
 
 .nav {
-    background: #ffffff;
+    background: #fbfbfb;
     color: #000000;
     list-style: none;
     text-align: right;
@@ -15,7 +15,7 @@ body {
 ul > li {
     display: inline-block;
     padding: 0 25px 0 25px;
-    font-size: 12px;        
+    font-size: 16px;        
 }
 
 .nav > li > a {
@@ -25,13 +25,13 @@ ul > li {
 
 .nav > li > a:hover {
     color: #c1c1c1;
-}
 
+}
 .logo {
     color: #000000;
     float: left;
     padding-left: 25px;
-    font-size: 16px;
+    font-size: 26px;
     font-weight: bold;
 }
 
@@ -46,6 +46,7 @@ ul > li {
 }
 
 .banner > .banner-image {
-    width: 100%;
+    width: 80%;
     display: block;
+    margin: 0 auto;
 }
