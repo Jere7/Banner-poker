@@ -1,12 +1,13 @@
 body {
-    background: url('img/sorcered-tree.jp') no-repeat;
+    background: url('img/poker-texas.jpg') no-repeat;
     background-size: cover;
     font-family: Arial;
     
+    
+    
 }
 
-ul {    
-    text-align: center;
+ul {     
     margin: 0px;
     padding: 0px;
     list-style: none;
@@ -14,10 +15,11 @@ ul {
 
 ul li {
     float: left;
-    width: 300px;
+    padding: 5px 0px 0px 5px;
+    width: 250px;
     height: 40px;
     background-color: black; 
-    opacity: .8;
+    opacity: .8;   
 }
 
 ul li a {
@@ -25,5 +27,5 @@ ul li a {
 }    
 
 ul li a:hover {
-    color: orange;
+    color: white;
 }
