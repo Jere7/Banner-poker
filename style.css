@@ -9,13 +9,13 @@ body {
     color: #000000;
     list-style: none;
     text-align: right;
-    padding: 20px 0 0 0;
+    padding: 0;
 }
 
 ul > li {
     display: inline-block;
     padding: 0 25px 0 25px;
-    font-size: 16px;        
+    font-size: 22px;        
 }
 
 .nav > li > a {
@@ -25,12 +25,12 @@ ul > li {
 
 .nav > li > a:hover {
     color: #c1c1c1;
-
 }
+
 .logo {
     color: #000000;
     float: left;
-    padding-left: 25px;
+    padding-left: 15px;
     font-size: 26px;
     font-weight: bold;
 }
@@ -46,7 +46,6 @@ ul > li {
 }
 
 .banner > .banner-image {
-    width: 80%;
+    width: 100%;
     display: block;
-    margin: 0 auto;
 }
