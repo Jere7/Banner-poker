@@ -4,10 +4,12 @@ $(document).ready(function(){
 });
 
 function startTween(){
-         TweenLite.to($("#toolBox"), 1.5, {delay: 1, x: 610, y: 300, scale: 1.5,
+    var d= 1
+
+         TweenLite.to($("#toolBox"), 1.5, {delay: d, x: 610, y: 300, scale: 1.5,
               onComplete: returnToNormal, onCompleteParams: [$("#toolBox")]});        
 
-         TweenLite.to(".color", 1.5, { x: 700, y: 330,
+         TweenLite.to(".color", 1.5, {delay:(d + .5), x: 700, y: 330,
               color: "#ff0000", fontSize: "+=55", onComplete: returnTextToNormal });
 }
 
