@@ -19,5 +19,5 @@ function returnToNormal(obj) {
 }
 
 function returnTextToNormal() {
-         TweenLite.to(".color", 1.5, {x: 100, y: 330, color: "black", fontSize: "-=40" });
+         TweenLite.to(".color", 1.5, {x: 600, y: 0, color: "black", fontSize: "+80" });
 }   
